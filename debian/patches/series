@@ -1,3 +1,5 @@
 smi-display-string.patch
 smistrip.patch
 cve-2010-2891.patch
+libsmi-format.patch
+segfault-bug600076.patch
