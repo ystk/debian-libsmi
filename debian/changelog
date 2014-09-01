@@ -1,3 +1,28 @@
+libsmi (0.4.8+dfsg2-10) unstable; urgency=medium
+
+  * Use dh-autoreconf to fix FTBFS on ppc64el. Closes: #757214.
+
+ -- Vincent Bernat <bernat@debian.org>  Wed, 06 Aug 2014 11:12:01 +0200
+
+libsmi (0.4.8+dfsg2-9) unstable; urgency=low
+
+  * Make the -dbg package multi-arch "same".
+  * Fix FTBFS due to a change in Bison. Closes: #733361.
+    Thanks to Andy Whitcroft.
+  * Bump Standards-Version to 3.9.5.
+
+ -- Vincent Bernat <bernat@debian.org>  Thu, 17 Apr 2014 08:23:19 +0200
+
+libsmi (0.4.8+dfsg2-8) unstable; urgency=low
+
+  * Update config.{guess,sub} with autotools-dev package. This enables
+    support for AArch64 port. Closes: #727439.
+  * Bump Standards-Version to 3.9.4.
+  * Fix Vcs-* fields.
+  * Add some lintian overrides.
+
+ -- Vincent Bernat <bernat@debian.org>  Sun, 27 Oct 2013 12:16:15 +0100
+
 libsmi (0.4.8+dfsg2-7) unstable; urgency=low
 
   * Remove debian/shlibs.local since we use a symbols file. Also, the file
